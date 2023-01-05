@@ -1,13 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function Note()
+function Note(props)
 {
+    function handleClick()
+    {
+        props.onDelete(props.id);
+
+        
+
+    }
+
     return <div className="note">
-        <h1>Keeping Note</h1>
+        <h1>{props.title}</h1>
         <p>
-        I like writing.
+        {props.content}
         </p>
+        <div className="btn">
+        <button className='deleteButton' onClick={handleClick}>DELETE</button>
+        </div>
+        
     </div>
 }
 

@@ -54,3 +54,55 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+#rButton {
+
+  border-radius: 100%;
+  color: #fff;
+  background-color: #f5ba13;
+  width:30px;
+  height: 30px;
+ 
+  
+}
+
+.btn
+{
+  text-align: right;
+  margin-top: 5px;
+}
+
+
+
+.addnote{
+
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 480px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: center;
+  
+}
+
+.deleteButton{
+  color:#f5ba13;
+  border: none;
+  box-shadow: none;
+}
+
+#noteArea{
+  width: 100%;
+  height: 100px;
+}
+
+#noteTitle{
+  border: none;
+  width:100%;
+  margin: 10px;
+}
+
+
